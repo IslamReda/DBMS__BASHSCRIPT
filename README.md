@@ -35,7 +35,7 @@ Display Table Operations:
 
 ## How To Use:
 ```sh
-$ ./mainMenu
+$ ./main.sh
 ```
 
 ## Contributors:
