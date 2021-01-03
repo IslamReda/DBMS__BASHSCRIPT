@@ -40,4 +40,4 @@ $ ./main.sh
 
 ## Contributors:
 * [Islam Mohamed Reda](https://github.com/IslamReda)
-* [Nagy Adel]()
+* [Nagy Adel](https://github.com/nagy1992)
