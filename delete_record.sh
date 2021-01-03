@@ -45,7 +45,7 @@ do
         if [ "$id" = "${arrPKeys[inde]}" ];
         then
 			temp=`awk -F: '{if(NR != 1 && $1 =='$id')print NR}' ./DBs/$DBName/$tblName`
-			echo "$temp"
+			#echo "$temp"
             sed -i "${temp}"d ./DBs/$DBName/$tblName > /dev/null 2>&1
             echo "Record deleted successfuly..."
 			flagNotFound=1

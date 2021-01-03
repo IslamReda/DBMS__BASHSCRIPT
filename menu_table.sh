@@ -11,19 +11,19 @@ do
     
 	case $REPLY in
 		1)
-			. ./show_tables.sh
+			. ./show_tables.sh $DB_Name
 			break 
             ;;
 		2)
-			. ./create_table.sh 
+			. ./create_table.sh $DB_Name 
 			break 
             ;;
 		3)
-			. ./select_table.sh 
+			. ./select_table.sh $DB_Name
 			break 
             ;;
 		4)
-			. ./delete_table.sh 
+			. ./delete_table.sh $DB_Name
 			break 
             ;;
 		5)
