@@ -32,6 +32,8 @@ Display Table Operations:
 ### Validation:
 * Validate For Empty Inputs
 * Validate For Datatype
+* Validate For Repeated Column Name
+* Validate For Repeated Primary Key
 
 ## How To Use:
 ```sh
